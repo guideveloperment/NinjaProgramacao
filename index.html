@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meu Portifólio</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Css/styles.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="./js/ninja.js"></script>
+</head>
+
+<body>
+    <!--navbar-->
+    <header id="navbar">
+        <img src="img/shuriken.png" alt="Estrela Ninja">
+        <h2>Guilherme Viana</h2>
+        <nav>
+            <lu id="navbar-list">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="/Guiteste/contato.html">Contato</a></li>
+            </lu>
+        </nav>
+    </header>
+    <!--fim navbar-->
+    <main>
+        <!--banner início-->
+        <div id="main-banner">
+         <div id="banner-info">
+            <h1>Olá, eu sou Guilherme Viana</h1>
+            <img src="img/ninja.png">
+            <p>O Ninja da programação</p>
+         </di>   
+        </div>
+    </main>
+    <!--banner fim-->
+    <!--about inicio-->
+    <section id="about-section">
+        <h2>Sobre meu jeito ninja de ser</h2>
+        <p>Sou em primeiro lugar um apaixonado por tecnologia, atualmente estou cursando o último ano de ADS. Tenho o privilégio de estar estagiando em uma ótima empresa, na área de mineração de dados, está sendo uma experiência de muito aprendizado e excelente!!! Busco me aprimorar cada dia mais, a área de tecnologia se faz necessário estar sempre buscando conhecimento e aprendizado! Busco ser um ninja melhor a cada dia rs rs rs. </p>
+    </section>    
+    <!--about fim-->
+    <section id="skills-section">
+        <div class="container">
+            <div class="skills-container">
+                <img src="img/weapon1.png" alt="Weapons">
+                <h3>Desenvolvimento</h3>
+                <p>Minha maior paixão é desenvolver projetos web</p>
+                <p class="sutitle">Linguagens que utilizo:</p>
+                <p>HTML, CSS, PHP, Java e JS</p>
+                <p class="subtitle">Projetos que posso desenvolver</p>
+                <P>Sites e sistemas de baixa complexidade</P>
+            </div>
+            <div class="container">
+                <div class="skills-container central">
+                    <img src="img/weapon2.png" alt="Weapons">
+                    <h3>Mineração de dados</h3>
+                    <p>Atuo também na análise e tratamento de dados</p>
+                    <p class="sutitle">Meus conhecimentos:</p>
+                    <p>Análise de requisitos, implementação de regras de negócios, integração de dados, tratamento de dados.</p>
+                    
+                </div>
+                <div class="container">
+                    <div class="skills-container">
+                        <img src="img/weapon3.png" alt="Weapons">
+                        <h3>Suporte ao Cliente</h3>
+                        <p class="sutitle">Suporte</p>
+                        <p>Suporte remoto e presencial em projetos de TI e Dados.</p>
+                    </div>
+        </div>
+    </section>
+    <!--skill fim-->
+    <!--jobs inicio-->
+    <section id="Jobs-section">
+        <h2>Veja meus últimos projetos:</h2> 
+        <p>Aqui estão os meus trabalhos postados no github<a href="https://github.com/guideveloperment/">Clique aqui</a></p>
+       
+        </h1>
+        <div class="job-container">
+            <div class="job-box proj1"></div>
+            <div class="job-box proj2"></div>
+            <div class="job-box proj3"></div>
+        </div>
+        <div class="job-container">
+            <div class="job-box proj2"></div>
+            <div class="job-box proj3"></div>
+            <div class="job-box proj1"></div>
+        </div>
+    </section>
+    <!--jobs fim-->
+    <!--footer inicio-->
+    <footer>
+        <h2>Me mande uma mensagem</h2>
+        <p>Caso queira falar sobre algum projeto, me contratar para algum serviço, ou falar sobre ninja...</p>
+        <img src="img/ninja.png" alt="Perfil Ninja">
+        <form action="envia-email.php" method="POST">
+            <input type="text" name="name" id="name" placeholder="Seu nome">
+            <input type="email" name="email" id="email" placeholder="Seu e-mail">  
+            <textarea name="msg" id="msg" placeholder="Digite uma mensagem"></textarea>
+            <button onclick="enviarFormulario()">Enviar</button>
+        </form> 
+        <p>Desenvolvido por <span class="detail">Guilherme Viana - Estudante de ADS</span></p>
+    </footer>
+    <!--footer fim-->
+
+    <!--
+        <div id="modalEnvioDeFormularioComSucesso">
+        <button onclick="closeModal('modalEnvioDeFormularioComSucesso')">Ok!</button>
+    </div>
+    <div id="modalEnvioDeFormularioComErro">
+        <button onclick="closeModal('modalEnvioDeFormularioComErro')">Ok!</button>
+    </div>
+
+    -->
+    
+ 
+</body>
+</html>
